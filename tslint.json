@@ -1,0 +1,14 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+      "curly":true,
+      "arrow-return-shorthand":true,
+      "quotemark":[true,"single","avoid-escape"],
+      "prefer-for-of": false
+    },
+    "rulesDirectory": []
+}

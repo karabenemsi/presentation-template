@@ -1,0 +1,88 @@
+.intro {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+
+  &.past {
+    .block {
+      right: -300%;
+    }
+  }
+
+  .block {
+    color: contrast(secondary);
+    position: absolute;
+    width: 55%;
+    bottom: 3rem;
+    left: 3rem;
+    padding: 0;
+    @include transition(all, 0.5s, cubic-bezier(0, 0, 0.3, 1));
+  }
+
+  .content {
+    text-align: left;
+  }
+
+  .date {
+    font-size: 1.6rem;
+    white-space: nowrap;
+  }
+  h1 {
+    color: contrast(secondary);
+    position: relative;
+    margin: 0;
+    font-size: 6rem;
+    text-align: left;
+    line-height: 1.1;
+    letter-spacing: -0.125rem;
+  }
+
+  h2 {
+    font-weight: 300;
+    color: contrast(secondary);
+    font-size: 2.5rem;
+  }
+
+  & +.intro-logo svg {
+    z-index: 3;
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+    height: 3rem;
+    @include transition(all, 0.5s, cubic-bezier(0, 0, 0.3, 1));
+    .st0 {
+       @include transition(fill, 0.5s, cubic-bezier(0, 0, 0.3, 1));
+      fill: #fff;
+    }
+  }
+
+  &.past {
+    & + .intro-logo svg {
+      // opacity: 1;
+      position: fixed;
+      top: 35%;
+      right: 50%;
+      transform: translate(50%,-50%);
+      height: 7rem;
+      // // background: pink;
+      animation: hide 0.2s  2s forwards;
+      .st0 {
+        fill: #1c4525;
+      }
+    }
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+    display: block;
+  }
+  100%{
+    opacity: 0;
+    display: none;
+  }
+}

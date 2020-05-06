@@ -1,0 +1,26 @@
+.reveal .slide-number {
+  position: absolute;
+  display: block;
+  z-index: 31;
+  font-size: 1.5rem;
+  line-height: 1;
+  bottom: 0;
+  right: 0;
+  width: 5rem;
+  height: 4rem;
+  background-color: color(primary);
+  padding: 1rem;
+  text-align: center;
+}
+
+.reveal [class^="slide-number-"] {
+  color: contrast(primary);
+
+  line-height: 1;
+  display: inline;
+  text-align: right;
+}
+
+.reveal .slide-number-delimiter {
+  margin: 0 3px;
+}

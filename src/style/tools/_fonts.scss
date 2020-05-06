@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+// <reference path="../global.scss" />
+// @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=57b68a75-0b29-42aa-a5ff-5fa9f60f3e3e&fontids=726112,726133,726178");
+
+@font-face {
+  src: url(/fonts/LinotypeUnivers-Light.eot?#iefix);
+  src: url(/fonts/LinotypeUnivers-Light.eot?#iefix) format('eot'),
+    url(/fonts/LinotypeUnivers-Light.woff2) format('woff2'),
+    url(/fonts/LinotypeUnivers-Light.woff) format('woff'),
+    url(/fonts/LinotypeUnivers-Light.ttf) format('truetype');
+
+  font-family: Linotype-Univers;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  src: url(/fonts/LinotypeUnivers-Regular.eot?#iefix);
+  src: url(/fonts/LinotypeUnivers-Regular.eot?#iefix) format('eot'),
+    url(/fonts/LinotypeUnivers-Regular.woff2) format('woff2'),
+    url(/fonts/LinotypeUnivers-Regular.woff) format('woff'),
+    url(/fonts/LinotypeUnivers-Regular.ttf) format('truetype');
+
+  font-family: Linotype-Univers;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(/fonts/LinotypeUnivers-Bold.eot?#iefix);
+  src: url(/fonts/LinotypeUnivers-Bold.eot?#iefix) format('eot'),
+    url(/fonts/LinotypeUnivers-Bold.woff2) format('woff2'),
+    url(/fonts/LinotypeUnivers-Bold.woff) format('woff'),
+    url(/fonts/LinotypeUnivers-Bold.ttf) format('truetype');
+
+  font-family: Linotype-Univers;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(/fonts/icomoon.eot);
+  src: url('/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.woff2') format('woff2'),
+    url('/fonts/icomoon.woff') format('woff'),
+    url('/fonts/icomoon.ttf') format('truetype'),
+    url('/fonts/icomoon.svg#icomoon') format('svg');
+
+  font-family: 'IcoMoon';
+  font-style: normal;
+  font-weight: 400;
+}
+
+[class^='icon-']::before,
+[class*=' icon-']::before {
+  speak: none;
+  /* use !important to prevent issues with browser extensions that change fonts */
+
+  font-family: 'IcoMoon' !important;
+  -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+}

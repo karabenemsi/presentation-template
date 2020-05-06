@@ -1,0 +1,53 @@
+.header {
+  background: color(primary);
+  color: contrast(primary);
+  padding: 4rem 4rem 6rem;
+  display: block;
+  // height: 10rem;
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0% 100%);
+  position: relative;
+  h3 {
+    text-align: left;
+    font-size: 4.5rem;
+  }
+  z-index: 20;
+}
+
+.reveal.center .slides > section {
+  min-height: 100%;
+  padding-top: 9rem;
+}
+
+.reveal .slides > section > section {
+  padding: 5rem;
+  // position: relative;
+}
+
+.fullsize {
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.dark {
+  color: #fff;
+  background-size: cover;
+}
+
+.source{
+  position: absolute;
+  bottom: 0;
+  right: 5rem;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 1.5rem 2rem;
+}
+
+.reveal .slides .logo {
+    z-index: 2;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    height: 2rem;
+  }
+

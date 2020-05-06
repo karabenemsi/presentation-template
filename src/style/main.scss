@@ -1,0 +1,40 @@
+/*
+* Css file to create the generic presentation
+*/
+
+@import 'tools/fonts';
+@import 'tools/icomoon';
+@import '../../node_modules/normalize.css/normalize.css';
+@import 'vendor/reveal';
+
+@import 'tools/hl-theme';
+// 2 - Definitions
+@import 'defs/vars';
+@import 'defs/urls';
+@import 'defs/mixins';
+@import 'defs/functions';
+// 3 - BASICS
+@import 'basics/body';
+@import 'basics/selection';
+@import 'basics/links';
+@import 'basics/scrollbar';
+@import 'basics/typography';
+// @import 'basics/buttons';
+@import 'basics/code';
+@import 'basics/lists';
+// @import 'basics/images';
+@import 'basics/icons';
+// @import 'basics/sections';
+// @import 'basics/main';
+
+
+@import 'theme/theme';
+@import 'theme/slide-numbers';
+@import 'theme/intro';
+@import 'theme/about';
+@import 'theme/chapter';
+@import 'theme/split';
+@import 'theme/slide';
+@import 'theme/code';
+@import 'theme/preview';
+@import 'theme/demos';
