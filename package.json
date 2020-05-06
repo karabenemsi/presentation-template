@@ -1,14 +1,14 @@
 {
-  "name": "bachelor-presi",
-  "version": "0.1.0",
-  "description": "Presentation for bachelor project",
+  "name": "presentation-template",
+  "version": "1.0.0",
+  "description": "A template for web presentation using reavealjs, pug, scss and gulp",
   "main": "gulp",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
     "start": "gulp"
   },
-  "author": "Florian Lubitz",
+  "author": "karabenemsi",
   "license": "",
   "browserslist": [
     "> 1%",
