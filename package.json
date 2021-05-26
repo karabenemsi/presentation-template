@@ -23,7 +23,7 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "browserify": "^16.5.1",
-    "browserslist": "^4.3.7",
+    "browserslist": "^4.16.5",
     "del": "^3.0.0",
     "express": "^4.17.1",
     "gulp": "^4.0.2",
