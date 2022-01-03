@@ -40,7 +40,7 @@
     "gulp-typescript": "^6.0.0-alpha.1",
     "gulp-uglify": "^3.0.2",
     "merge-stream": "^2.0.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "tsify": "^4.0.1",
     "typescript": "^3.8.3",
     "vinyl-buffer": "^1.0.1",
